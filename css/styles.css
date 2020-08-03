@@ -69,6 +69,10 @@ body {
   background-color: #fff;
 }
 
+#first {
+  background: transparent url('../assets/img/office.jpeg') no-repeat center center /cover
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -77,6 +81,10 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+h1, h3{
+  color: #FFF
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -359,15 +367,10 @@ template {
 
 @font-face {
   font-family: "Karla";
-  src: url("karla-bold.woff")format("woff");
+  src: url("Circular-Book.woff")format("woff");
   font-weight: bold;
 }
 
-@font-face {
-  font-family: "Nunito";
-  src: url("Nunito/Nunito-Black.ttf");
-  font-weight: bold;
-}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
